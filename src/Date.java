@@ -1,15 +1,16 @@
 
 public class Date {
 	
-	private String date;
+	private String date = "Friday";
 	
 	public Date() {
-		this.date = "Friday";
-		System.out.print(date);
+		
 		
 	}
-	public String toString() {
-		return date;
+	
+	public void print() {
+		System.out.println(date);
 	}
+	
 
 }
